@@ -1,73 +1,77 @@
 @font-face {
-	font-family: vazir;
-	src: url("fonts/vazir_regular.woff2");
-	font-weight: normal;
+  font-family: vazir;
+  src: url("fonts/vazir_regular.woff2");
+  font-weight: normal;
 }
 
 @font-face {
-	font-family: vazir;
-	src: url("fonts/vazir_bold.woff2");
-	font-weight: bold;
+  font-family: vazir;
+  src: url("fonts/vazir_bold.woff2");
+  font-weight: bold;
 }
 
 :root {
-	--bs-body-font-family: vazir, sans-serif;
-	--bs-link-hover-color-rgb: #4d7037;
-	--custom-color1: #4d7037;
-	--custom-color2: #b9bf3d;
+  --bs-body-font-family: vazir, sans-serif;
+  --bs-link-hover-color-rgb: #4d7037;
+  --custom-color1: #4d7037;
+  --custom-color2: #b9bf3d;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .card-title {
-	color: var(--custom-color2);
-	font-weight: bold;
+  color: var(--custom-color2);
+  font-weight: bold;
+  margin-block: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+  line-height: 2rem;
 }
 
 .social-container {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 1rem;
 }
 
 a.social-link {
-	text-align: center;
-	color: #fff;
-	font-size: 1.25rem;
-	transition: all ease-in-out 0.2s;
+  text-align: center;
+  color: #fff;
+  font-size: 1.25rem;
+  transition: all ease-in-out 0.2s;
 }
 
 .website:hover {
-	color: #6A2C70;
+  color: #6a2c70;
 }
 
 .facebook:hover {
-	color: #1e77f0;
+  color: #1e77f0;
 }
 
 .instagram:hover {
-	color: #d9317a;
+  color: #d9317a;
 }
 
 .youtube:hover {
-	color: #f00;
+  color: #f00;
 }
 
 .telegram:hover {
-	color: #0e8ed4;
-}
-
-.whatsapp:hover {
-	color: #25d366;
-}
-
-.linkedin:hover {
-	color: #0077b5;
+  color: #0e8ed4;
 }
 
 .github:hover {
-	color: #000;
+  color: #000;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
